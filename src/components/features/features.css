@@ -1,0 +1,44 @@
+.features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featureItem {
+  flex: 1;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.featureTitle {
+  font-size: 20px;
+}
+
+.featureCont {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.featureMoney {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.featureIcon {
+  font-size: 20px;
+  margin-left: 5px;
+  color: green;
+}
+
+.featureIcon.negative {
+  color: red;
+}
+
+.featureSub {
+  font-size: 15px;
+  color: gray;
+}
